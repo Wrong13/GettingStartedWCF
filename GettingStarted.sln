@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{B4BB204C-11E3-4BEC-A577-9CF46B694BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{39FD7885-405E-471B-BD76-BB3EC734F23E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{326614EA-901E-4439-AA75-BECE0F000F82} = {326614EA-901E-4439-AA75-BECE0F000F82}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{B4BB204C-11E3-4BEC-A577-9CF46B694BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4BB204C-11E3-4BEC-A577-9CF46B694BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4BB204C-11E3-4BEC-A577-9CF46B694BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FD7885-405E-471B-BD76-BB3EC734F23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FD7885-405E-471B-BD76-BB3EC734F23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FD7885-405E-471B-BD76-BB3EC734F23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FD7885-405E-471B-BD76-BB3EC734F23E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
